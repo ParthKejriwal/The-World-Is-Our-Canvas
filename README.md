@@ -1,2 +1,2 @@
-# The-World-Is-Our-Canvas
-All the files for my universal canvas project
+# p5.play-boilerplate
+Boiler plate for p5.play
