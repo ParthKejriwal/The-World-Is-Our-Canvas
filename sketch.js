@@ -13,8 +13,8 @@ function setup(){
   //canvas.mousePressed(startPath);
   //canvas.mouseReleased(endPath);
   canvas.parent('canvascontainer');
- // var saveButton=select('#saveButton');
- // saveButton.mousePressed(saveDrawing);
+  var clearButton=select('#clearButton');
+  clearButton.mousePressed(clearDrawing);
 }
 
 function startPath() {
@@ -71,6 +71,10 @@ function getData() {
     }
 
 
+}
+
+function clearDrawing() {
+  drawing=[];
 }
 
 /*function saveDrawing() {
